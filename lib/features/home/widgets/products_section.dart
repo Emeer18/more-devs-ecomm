@@ -22,6 +22,8 @@ class ProductsSection extends StatelessWidget {
       name: 'Nome do produto',
       imageUrl: '',
       price: 0,
+      category: '',
+      description: '',
     ),
   );
 
@@ -29,14 +31,19 @@ class ProductsSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 10),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text('Produtos', style: AppTextStyle.title),
-              Icon(Icons.chevron_right),
-            ],
+        GestureDetector(
+          onTap: () {
+            Navigator.pushNamed(context, '/all-products');
+          },
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 10),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text('Produtos', style: AppTextStyle.title),
+                Icon(Icons.chevron_right),
+              ],
+            ),
           ),
         ),
         if (state == ProductsViewState.error)

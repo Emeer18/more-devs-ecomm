@@ -28,4 +28,10 @@ class AppTextStyle {
     fontWeight: FontWeight.w500,
     color: AppColors.green,
   );
+
+  static TextStyle description = TextStyle(
+    fontWeight: FontWeight.w100,
+    color: AppColors.black,
+    fontSize: 20,
+  );
 }
