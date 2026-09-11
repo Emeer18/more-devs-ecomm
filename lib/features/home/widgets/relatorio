@@ -1,0 +1,42 @@
+# 📋 Homologação em Par — Teste Cruzado (Flutter)
+
+**Projeto avaliado:** Emerson / moredevsecomm
+**Dupla autora:** Emerson Lucas Bertelli Cardoso e Manuela Frazão de Oliveira
+**Dupla avaliadora:** Emerson Lucas Bertelli Cardoso e Manuela Frazão de Oliveira
+**Data:** 10/09/2026
+
+> Rode o projeto da outra dupla e anote abaixo os **bugs** que encontrar durante o uso e as **práticas ruins** que notar no código.
+
+---
+
+## 🐞 Bugs encontrados
+
+_(o que quebra ou não funciona ao usar o app — descreva o problema e, se possível, como reproduzir)_
+
+- ‹bug 1›faltou o row na categoria
+- ‹bug 2›e o text na categoria
+- ‹bug 3›
+solução: Row (
+    children: [
+        Text("Categorias")
+        TextStyle(fontWeight:70 FonteWeightbold:20)
+        
+    ]
+)
+---
+
+## ⚠️ Práticas ruins de codificação
+
+_(o que está mal feito no código — ex.: tudo em um arquivo só, nomes confusos, código duplicado, sem tratamento de erro, warnings no `flutter analyze`)_
+
+- ‹bug 1>pagina do carrinho para fazer (adicionar produto) (tirar produto)
+- ‹bug 2› adicionar  o bottonsheet na pagina do carrinho
+- ‹bug 3›
+- ‹prática 2›
+- ‹prática 3›
+
+## Boas Práticas 
+boasPraticas> products funcionando de forma boa sem delay nem carregamento infinito
+boasPraticas2>frutas disponiveis na categoria
+boasPraticas> Preço verde uma boa pratica ux/desing
+
